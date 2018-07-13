@@ -28,6 +28,7 @@
 		427AE24E20F7C20B0039F6BD /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AE24D20F7C20B0039F6BD /* PostImageCell.swift */; };
 		427AE25020F7C6A40039F6BD /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AE24F20F7C6A40039F6BD /* PostHeaderCell.swift */; };
 		427AE25220F7CB160039F6BD /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AE25120F7CB160039F6BD /* PostActionCell.swift */; };
+		427AE25420F7D4380039F6BD /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427AE25320F7D4380039F6BD /* LikeService.swift */; };
 		42D01F1420F2C41F00869108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D01F1320F2C41F00869108 /* AppDelegate.swift */; };
 		42D01F1920F2C41F00869108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D01F1720F2C41F00869108 /* Main.storyboard */; };
 		42D01F1B20F2C42000869108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D01F1A20F2C42000869108 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		427AE24D20F7C20B0039F6BD /* PostImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		427AE24F20F7C6A40039F6BD /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		427AE25120F7CB160039F6BD /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		427AE25320F7D4380039F6BD /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		42D01F1020F2C41F00869108 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D01F1320F2C41F00869108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D01F1820F2C41F00869108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				4211B18520F54553003696C3 /* UserService.swift */,
 				4211B19820F669AD003696C3 /* StorageService.swift */,
 				4211B19A20F66C5C003696C3 /* PostService.swift */,
+				427AE25320F7D4380039F6BD /* LikeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				4211B19120F57D52003696C3 /* MainTabBarController.swift in Sources */,
 				4211B18620F54553003696C3 /* UserService.swift in Sources */,
 				427AE25220F7CB160039F6BD /* PostActionCell.swift in Sources */,
+				427AE25420F7D4380039F6BD /* LikeService.swift in Sources */,
 				427AE24A20F7B3960039F6BD /* FindFriendsViewController.swift in Sources */,
 				427AE24E20F7C20B0039F6BD /* PostImageCell.swift in Sources */,
 				42030F6820F69BD10033C3C1 /* HomeViewController.swift in Sources */,
